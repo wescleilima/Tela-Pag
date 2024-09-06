@@ -1,0 +1,39 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Pagamento de Serviços</title>
+</head>
+
+<body>
+    <header>
+        <img src="./logo.jpg" alt="Logo">
+    </header>
+
+    <div class="container">
+        <h1>Selecione os Serviços para Pagamento</h1>
+        <div class="services">
+            <div class="service">
+                <h2>Academias</h2>
+                <p>Acesso às academias locais</p>
+                <input type="checkbox" id="academias">
+            </div>
+            <div class="service">
+                <h2>Personal Trainers</h2>
+                <p>Treinamento personalizado</p>
+                <input type="checkbox" id="personal-trainers">
+            </div>
+            <div class="service">
+                <h2>Consulta de Saúde</h2>
+                <p>Consultas médicas e exames</p>
+                <input type="checkbox" id="consulta-saude">
+            </div>
+        </div>
+        <button class="btn-pagar" onclick="efetuarPagamento()">Efetuar Pagamento</button>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
